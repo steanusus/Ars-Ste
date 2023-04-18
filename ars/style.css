@@ -1,0 +1,23 @@
+.con{
+    width: 600px;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    margin: auto;
+    
+}
+.ha{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+
+}
+.btncon{
+    display: flex;
+    justify-content: space-around;
+}

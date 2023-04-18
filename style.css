@@ -1,0 +1,64 @@
+body{
+    background-image: url(media/фон3.png);
+}
+.div{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+h2{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    font-size: 30px;
+    text-align: center;
+    font-family: system-ui;
+}
+.lol{
+    width: 1900px;
+    height: auto;
+}
+.lp{
+    width: 600px;
+}
+.beb{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+h3{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.cent{
+    justify-content: center;
+}
+.info1{
+    font-size: 30px;
+    text-align: center;
+    font-family: system-ui;
+}
+.header{
+    height: 50px;
+    border: 1px rgb(0, 0, 0) solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    background-color: grey;
+}
+img{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-width: 4px 0px 4px 0px  ;
+    border-style:solid ;
+    border-color: rgb(0, 0, 0);
+}
