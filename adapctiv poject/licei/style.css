@@ -1,0 +1,55 @@
+.s{
+    width: 400px;
+    height: 200px;
+    transition-duration: 1s ;
+}
+.p{
+    width: 400px;
+    height: 200px;
+    transition-duration: 1s ;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.s:hover{
+    transform: scale(1.5);
+}
+.p:hover{
+    transform: scale(1.5);
+}
+.c{
+    width: 400px;
+    height: 200px;
+    transition-duration: 1s ;
+}
+.c:hover{
+    transform: scale(1.5);
+}
+img{
+    overflow: hidden;
+}
+.box{
+    border-width: 4px 0px 4px 0px  ;
+    border-style:solid ;
+    border-color: rgb(0, 0, 0);
+    background-color: gray;
+}
+.col-lg-6{
+    display: block;
+    margin: 0 auto;
+    border:black 1px solid;
+}
+#comment-field{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.btn{
+    display: flex;
+    margin: 0 auto;
+}

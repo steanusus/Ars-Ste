@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="header"></header>
+    <div class="dom">
+        <div class="lol">
+            <div class="cent"></div>
+            <div class="div">
+                <article class="box" id="stick">
+                    <h2 class="active" id="click">инфа о сайте</h2>
+                    <p class="info" style="display: none;" id="hide">
+                        в этом сайте вы сможете найти информацыю о 13 <a href="licei/index.html">лицеи</a> или о <a href="https://www.youtube.com/watch?v=UK5NGvaFs58">учиниках</a> которые учятся в ньом
+                        <video controls class="lp" src="media/y2mate.com - MellSher 5opka  Киношка lpshkaa diss_720pFHR.mp4"></video>
+                    </p>
+                </article>
+                <article>
+                    <h3 class="active1" id="click">новости школы</h3>
+                    <p class="info1" style="display: none;" id="hide1">
+                        <img src="media/IMG_0614.png" alt="">
+                        третий этаж мужской туалет
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+    let header = document.querySelector('.header');
+    let a = document.createElement("a");
+    a.textContent = `добро пожаловать ${username}`;
+    a.style.display = "flex";
+    a.style.justifyContent = "center";
+    a.style.fontSize = "20px"
+    a.style.marginTop = "10px"
+    a.href = "https://youtu.be/zv0-W7E4ff4"
+    header.appendChild(a);
+    
+</script>

@@ -1,0 +1,18 @@
+body{
+    height: 95vh;
+}
+img{
+    width: 200px;
+    height:200px;
+}
+.mus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+}
+.py-terminal{
+    background-color: white;
+}
